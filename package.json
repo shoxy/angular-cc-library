@@ -1,35 +1,59 @@
 {
-  "name": "angular-cc-library",
-  "version": "1.1.0",
-  "description": "angular credit card library",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "scripts": {
-    "test": "karma start ./karma.conf.js",
-    "dev": "webpack-dev-server --port 4200 --inline --progress --profile --colors --watch --display-error-details --display-cached --content-base",
-    "tsc": "tsc --rootDir src --outDir dist --declaration",
-    "ngc": "./node_modules/.bin/ngc",
-    "prebuild": "rimraf dist",
-    "build": "npm run tsc",
-    "prepublish": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nogorilla/angular-cc-library.git"
-  },
-  "keywords": [
-    "angular",
-    "validate",
-    "validation",
-    "credit card",
-    "credit card format"
+  "_args": [
+    [
+      {
+        "raw": "angular-cc-library@^1.1.0",
+        "scope": null,
+        "escapedName": "angular-cc-library",
+        "name": "angular-cc-library",
+        "rawSpec": "^1.1.0",
+        "spec": ">=1.1.0 <2.0.0",
+        "type": "range"
+      },
+      "/home/vagrant/gvv/ng-app"
+    ]
   ],
-  "author": "nogorilla <gabriel.smith010@gmail.com>",
-  "license": "MIT",
+  "_from": "angular-cc-library@>=1.1.0 <2.0.0",
+  "_id": "angular-cc-library@1.1.0",
+  "_inCache": true,
+  "_location": "/angular-cc-library",
+  "_nodeVersion": "7.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/angular-cc-library-1.1.0.tgz_1496320649901_0.35499899042770267"
+  },
+  "_npmUser": {
+    "name": "nogorilla",
+    "email": "gabriel.smith01@gmail.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular-cc-library@^1.1.0",
+    "scope": null,
+    "escapedName": "angular-cc-library",
+    "name": "angular-cc-library",
+    "rawSpec": "^1.1.0",
+    "spec": ">=1.1.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-cc-library/-/angular-cc-library-1.1.0.tgz",
+  "_shasum": "dae401c000810ee9956b92919ff2687cb9f0eb82",
+  "_shrinkwrap": null,
+  "_spec": "angular-cc-library@^1.1.0",
+  "_where": "/home/vagrant/gvv/ng-app",
+  "author": {
+    "name": "nogorilla",
+    "email": "gabriel.smith010@gmail.com"
+  },
   "bugs": {
     "url": "https://github.com/nogorilla/angular-cc-library/issues"
   },
-  "homepage": "https://github.com/nogorilla/angular-cc-library#readme",
+  "dependencies": {},
+  "description": "angular credit card library",
   "devDependencies": {
     "@angular/common": "^2.4.9",
     "@angular/compiler": "^2.4.9",
@@ -64,5 +88,49 @@
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1",
     "zone.js": "^0.6.14"
-  }
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "dae401c000810ee9956b92919ff2687cb9f0eb82",
+    "tarball": "https://registry.npmjs.org/angular-cc-library/-/angular-cc-library-1.1.0.tgz"
+  },
+  "gitHead": "33a552072ee8e47159779af9f67a467cabb2cfa2",
+  "homepage": "https://github.com/nogorilla/angular-cc-library#readme",
+  "keywords": [
+    "angular",
+    "validate",
+    "validation",
+    "credit card",
+    "credit card format"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "maintainers": [
+    {
+      "name": "nogorilla",
+      "email": "gabriel.smith01@gmail.com"
+    },
+    {
+      "name": "tcmacdonald",
+      "email": "taylor@helloample.com"
+    }
+  ],
+  "name": "angular-cc-library",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nogorilla/angular-cc-library.git"
+  },
+  "scripts": {
+    "build": "npm run tsc",
+    "dev": "webpack-dev-server --port 4200 --inline --progress --profile --colors --watch --display-error-details --display-cached --content-base",
+    "ngc": "ngc",
+    "prebuild": "rimraf dist",
+    "prepublish": "npm run build",
+    "test": "karma start ./karma.conf.js",
+    "tsc": "tsc --rootDir src --outDir dist --declaration"
+  },
+  "typings": "dist/index.d.ts",
+  "version": "1.1.0"
 }
